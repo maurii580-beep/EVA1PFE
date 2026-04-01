@@ -1,0 +1,43 @@
+/* style.css */
+
+/* Uso de variables para consistencia y contraste [cite: 49, 53] */
+:root {
+    --primary-color: #2c3e50;
+    --accent-color: #3498db;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333; /* Texto legible [cite: 54] */
+}
+
+/* Espaciados personalizados [cite: 50] */
+section {
+    margin-bottom: 3rem;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Hover para mejorar la interactividad de botones y enlaces [cite: 57] */
+.btn-primary {
+    background-color: var(--accent-color);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    background-color: #2980b9;
+}
+
+/* Estilo para imágenes [cite: 35] */
+img {
+    transition: opacity 0.3s;
+}
+
+img:hover {
+    opacity: 0.9;
+}
