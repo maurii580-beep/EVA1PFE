@@ -13,8 +13,8 @@
             <h1>Pixel Fotografias</h1>
             <nav>
                 <ul class="nav">
-                    <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galería</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galería</a></li>
                     <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
@@ -26,30 +26,58 @@
             <p class="lead">Inmortalizando tus mejores recuerdos con estilo y técnica.</p>
             <img src="C:\Users\mauri\OneDrive\Desktop\INACAP\Año 2\Frond End\EVA_1_HTML\img\camara.png" alt="Cámara profesional sobre un trípode en un paisaje al atardecer" class="img-fluid rounded shadow" width="450">
         </section>
-
-        <section id="galeria" class="py-5">
-            <h2 class="text-center mb-4">Mi Portafolio</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <article class="card"> <img src="C:\Users\mauri\OneDrive\Desktop\INACAP\Año 2\Frond End\EVA_1_HTML\img\boda.avif" alt="Pareja recién casada bajo un arco de flores" class="card-img-top" width="100">
-                        <div class="card-body"><h3>Bodas</h3></div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="card">
-                        <img src="C:\Users\mauri\OneDrive\Desktop\INACAP\Año 2\Frond End\EVA_1_HTML\img\naturaleza.jpeg" alt="Montañas reflejadas en un lago cristalino" class="card-img-top" width="200">
-                        <div class="card-body"><h3>Naturaleza</h3></div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="card">
-                        <img src="C:\Users\mauri\OneDrive\Desktop\INACAP\Año 2\Frond End\EVA_1_HTML\img\retratos.jpg" alt="Retrato en primer plano con fondo desenfocado" class="card-img-top" width="200">
-                        <div class="card-body"><h3>Retratos</h3></div>
-                    </article>
-                </div>
+<section id="servicios" class="py-5">
+    <h2 class="text-center mb-4">Nuestros Servicios</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="p-3 border rounded shadow-sm bg-white">
+                <h4>Sesión Exterior</h4>
+                <p>Fotografías en locaciones naturales con luz controlada.</p>
             </div>
-        </section>
-
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 border rounded shadow-sm bg-white">
+                <h4>Eventos</h4>
+                <p>Cobertura completa para matrimonios, bautizos y fiestas.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 border rounded shadow-sm bg-white">
+                <h4>Estudio</h4>
+                <p>Retratos profesionales con fondo y luces de estudio.</p>
+            </div>
+        </div>
+    </div>
+</section>
+        <section id="galeria" class="py-5">
+    <h2 class="text-center mb-4">Mi Portafolio</h2>
+    <div class="row g-4 text-center">
+        <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+                <div class="p-3">
+                    <img src="img/boda.avif" alt="Pareja recién casada bajo un arco de flores" class="rounded" style="width: 300px; height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body"><h3>Bodas</h3></div>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+                <div class="p-3">
+                    <img src="img/naturaleza.jpeg" alt="Montañas reflejadas en un lago cristalino" class="rounded" style="width: 300px; height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body"><h3>Naturaleza</h3></div>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article class="card h-100 shadow-sm">
+                <div class="p-3">
+                    <img src="img/retratos.jpg" alt="Retrato en primer plano con fondo desenfocado" class="rounded" style="width: 300px; height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body"><h3>Retratos</h3></div>
+            </article>
+        </div>
+    </div>
+</section>
         <section id="contacto" class="bg-light p-5 rounded">
             <h2 class="text-center">Reserva tu Sesión</h2>
             <form action="#" method="POST" class="mx-auto" style="max-width: 500px;">
